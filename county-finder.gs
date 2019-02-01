@@ -11,7 +11,7 @@ function zipToCounty(){
   
   var geocoder = Maps.newGeocoder().setRegion(getGeocodingRegion());
   var location;
-  Logger.log(geocoder.geocode("Baker, WV 26801, USA")); return;
+  // Logger.log(geocoder.geocode("Baker, WV 26801, USA")); return;
   
   for(addressRow = 1; addressRow <= cells.getNumRows(); ++addressRow){
     var address = cells.getCell(addressRow, addressColumn).getValue();
